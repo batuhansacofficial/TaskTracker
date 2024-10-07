@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 1,
+    "Description": "Task one.",
+    "Status": "Pending",
+    "CreatedAt": "2024-10-07T03:57:31.5260865+03:00",
+    "UpdatedAt": "2024-10-07T03:57:31.5306144+03:00"
+  },
+  {
+    "Id": 2,
+    "Description": "Task two.",
+    "Status": "In Progress",
+    "CreatedAt": "2024-10-07T03:57:33.4762034+03:00",
+    "UpdatedAt": "2024-10-07T03:58:13.2391171+03:00"
+  },
+  {
+    "Id": 3,
+    "Description": "Task three.",
+    "Status": "Done",
+    "CreatedAt": "2024-10-07T03:57:35.2772959+03:00",
+    "UpdatedAt": "2024-10-07T03:58:11.4671534+03:00"
+  }
+]
