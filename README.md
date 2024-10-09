@@ -26,17 +26,36 @@ cd path/to/TaskTracker
 dotnet restore
 ```
 
-### Run the Application
+### Build the Application
 ```bash
-dotnet run
+dotnet build
 ```
 
 ## Commands
-- **Add a task**: `dotnet run add "Task Description"`
-- **Update a task**: `dotnet run update <task-id> "New Task Description"`
-- **Delete a task**: `dotnet run delete <task-id>`
-- **Change task status**: `dotnet run mark-in-progress <task-id>` or `dotnet run mark-done <task-id>`
-- **List tasks with status (optional)**: `dotnet run list <status> (optional)` (`<status> (optional)` can be *todo*, *in-progress* or *done*)
+- **Add a task**:
+```bash
+dotnet run add "Modify the description here"
+```
+- **Update a task**:
+```bash
+dotnet run update <task-id> "Modify the description here"
+```
+- **Delete a task**:
+```bash
+dotnet run delete <task-id>
+```
+- **Change task status**:
+```bash
+dotnet run mark-in-progress <task-id>
+```
+```bash
+dotnet run mark-done <task-id>
+```
+- **List tasks with status (optional)**: 
+```bash
+dotnet run list <status>
+```
+(`<status>` is optional and can be *todo*, *in-progress* or *done*)
 
 ## Viewing Task Data
 Tasks are stored in `tasks.json`.
