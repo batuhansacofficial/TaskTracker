@@ -2,6 +2,7 @@
 
 ## Description
 A command-line task tracker built with C# and .NET.
+Project Idea: https://roadmap.sh/projects/github-user-activity
 
 ## Requirements
 - **.NET SDK (version)**: 8.0.400
@@ -62,5 +63,3 @@ Tasks are stored in `tasks.json`.
 
 ## Common Issues
 - If you encounter issues with the `tasks.json` file, delete it, and the application will create a new one.
-
-https://roadmap.sh/projects/task-tracker
