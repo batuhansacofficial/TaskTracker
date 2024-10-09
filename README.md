@@ -2,6 +2,7 @@
 
 ## Description
 A command-line task tracker built with C# and .NET.
+<br>
 Project Idea: https://roadmap.sh/projects/github-user-activity
 
 ## Requirements
