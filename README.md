@@ -13,7 +13,7 @@ Project Idea: https://roadmap.sh/projects/github-user-activity
 
 ### Clone or Download the Repository
 ```bash
-git clone https://github.com/batuhansacofficial/TaskTracker/
+git clone https://github.com/batuhansacofficial/TaskTracker.git
 ```
 or download the ZIP file and extract it.
 
