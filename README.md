@@ -62,4 +62,7 @@ dotnet run list <status>
 Tasks are stored in `tasks.json`.
 
 ## Common Issues
-- If you encounter issues with the `tasks.json` file, delete it, and the application will create a new one.
+If you encounter issues with the `tasks.json` file, delete it, and the application will create a new one.
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
