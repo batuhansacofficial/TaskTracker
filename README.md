@@ -1,8 +1,7 @@
 # Task Tracker
 
 ## Description
-A command-line task tracker built with C# and .NET.
-<br>
+A command-line task tracker built with C# and .NET.<br>
 Project Idea: https://roadmap.sh/projects/github-user-activity
 
 ## Requirements
@@ -34,30 +33,30 @@ dotnet build
 ```
 
 ## Commands
-- **Add a task**:
+### Add a Task
 ```bash
 dotnet run add "Modify the description here"
 ```
-- **Update a task**:
+### Update a Task
 ```bash
 dotnet run update <task-id> "Modify the description here"
 ```
-- **Delete a task**:
+### Delete a task
 ```bash
 dotnet run delete <task-id>
 ```
-- **Change task status**:
+### Change Task Status
 ```bash
 dotnet run mark-in-progress <task-id>
 ```
 ```bash
 dotnet run mark-done <task-id>
 ```
-- **List tasks with status (optional)**: 
+### List tasks with status
 ```bash
 dotnet run list <status>
 ```
-(`<status>` is optional and can be *todo*, *in-progress* or *done*)
+- (`<status>` is optional and can be *todo*, *in-progress* or *done*)
 
 ## Viewing Task Data
 Tasks are stored in `tasks.json`.
