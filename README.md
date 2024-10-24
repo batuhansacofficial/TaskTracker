@@ -2,34 +2,42 @@
 
 ## Description
 A command-line task tracker built with C# and .NET.<br>
-Project Idea: https://roadmap.sh/projects/github-user-activity
+Project Idea: [Task Tracker](https://roadmap.sh/projects/task-tracker)
 
-## Requirements
-- **.NET SDK (version)**: 8.0.400
-- **Target Framework**: .NET 8.0 
-- **Visual Studio** or **Visual Studio Code** (optional)
+## Features
+- Add a task
+- Update a task
+- Delete a task
+- Change task status
+- List tasks with status
+
+## Prerequisites
+- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 
 ## Getting Started
 
 ### Clone or Download the Repository
+
 ```bash
 git clone https://github.com/batuhansacofficial/TaskTracker.git
 ```
 or download the ZIP file and extract it.
 
-### Navigate to Project Directory
-```bash
-cd path/to/TaskTracker
-```
+### Build and Run the Application
 
-### Restore Dependencies
+1. Restore the Dependencies:
 ```bash
 dotnet restore
 ```
 
-### Build the Application
+2. Build the application:
 ```bash
 dotnet build
+```
+
+3. Run the application:
+```bash
+dotnet run
 ```
 
 ## Commands
@@ -65,4 +73,7 @@ Tasks are stored in `tasks.json`.
 If you encounter issues with the `tasks.json` file, delete it, and the application will create a new one.
 
 ## Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+Contributions are welcome! Please open an issue or submit a pull request for any changes.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/batuhansacofficial/TaskTracker?tab=MIT-1-ov-file) file for details.
